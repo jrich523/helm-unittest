@@ -131,4 +131,5 @@ var assertTypeMapping = map[string]assertTypeDef{
 	"isKind":        {reflect.TypeOf(validators.IsKindValidator{}), false},
 	"isAPIVersion":  {reflect.TypeOf(validators.IsAPIVersionValidator{}), false},
 	"hasDocuments":  {reflect.TypeOf(validators.HasDocumentsValidator{}), false},
+	"hasSize":       {reflect.TypeOf(validators.HasSizeValidator{}), false},
 }
